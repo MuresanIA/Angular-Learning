@@ -1,3 +1,3 @@
 # Angular-Learning
 
-- This repository is for my personal learning progress regarding Angular.
+- This repository is strictly used for my personal learning progress regarding Angular.
