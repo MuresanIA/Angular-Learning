@@ -11,7 +11,7 @@ export class ServersComponent implements OnInit {
   public servers: {id: number, name: string, status: string}[] = [];
 
   constructor(private serversService: ServersService,
-    private router: Router,
+  private router: Router,
     private route: ActivatedRoute) { 
 
     }
