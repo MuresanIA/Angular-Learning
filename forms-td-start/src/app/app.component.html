@@ -15,7 +15,6 @@
           </div>
           <!-- <p ngIf="">Please enter a valid value!</p> -->
         </div>
-        <div class="form-group">
           <label for="secret">Secret Questions</label>
           <select 
           id="secret"
@@ -25,7 +24,14 @@
             <option value="pet">Your first Pet?</option>
             <option valeEFEue="teacher">Your first teacher?</option>
           </select>
+        <div class="form-group">
+          <textarea
+           name="questionAnswer"
+          rows="3"
+          [(ngModel)]="answer"
+          class="form-control"></textarea>
         </div>
+        <p>Your reply: {{answer}}</p>
         <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Submit</button>
       </form>
     </div>
