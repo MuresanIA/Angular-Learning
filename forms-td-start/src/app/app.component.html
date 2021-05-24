@@ -5,27 +5,13 @@
         <div id="user-data">
           <div class="form-group">
             <label for="username">Username</label>
-            <input 
-            type="text"
-             id="username"
-              class="form-control"
-            ngModel
-            name="username"
-            required>
+            <input type="text" id="username" class="form-control" ngModel name="username" required>
           </div>
           <button class="btn btn-default" type="button">Suggest an Username</button>
           <div class="form-group">
             <label for="email">Mail</label>
-            <input 
-            type="email"
-             id="email"
-              class="form-control"
-               ngModel
-              name="email"
-              required
-              email
-              #email="ngModel">
-              <span class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid email!</span>
+            <input type="email" id="email" class="form-control" ngModel name="email" required email #email="ngModel">
+            <span class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid email!</span>
           </div>
           <!-- <p ngIf="">Please enter a valid value!</p> -->
         </div>
@@ -34,16 +20,13 @@
           <select 
           id="secret"
            class="form-control"
-           ngModel
-           name="secret">
+            [ngModel]="defaultQuestion"
+             name="secret">
             <option value="pet">Your first Pet?</option>
             <option valeEFEue="teacher">Your first teacher?</option>
           </select>
         </div>
-        <button 
-        class="btn btn-primary" 
-        type="submit"
-        [disabled]="!f.valid">Submit</button>
+        <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Submit</button>
       </form>
     </div>
   </div>
