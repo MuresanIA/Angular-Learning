@@ -19,17 +19,20 @@ const appRoutes: Routes = [
       {
         path: ':id',
         component: RecipeDetailComponent,
-        resolve: [RecipesResolverService],
+        resolve: [RecipesResolverService]
       },
-      { path: ':id/edit', component: RecipeEditComponent,
-      resolve: [RecipesResolverService] },
-    ],
+      {
+        path: ':id/edit',
+        component: RecipeEditComponent,
+        resolve: [RecipesResolverService]
+      }
+    ]
   },
-  { path: 'shopping-list', component: ShoppingListComponent },
+  { path: 'shopping-list', component: ShoppingListComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}
