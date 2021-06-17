@@ -21,5 +21,4 @@ import { ShoppingListComponent } from "./shopping-list.component";
     ]
 })
 export class ShoppingListModule {
-
 }
