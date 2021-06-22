@@ -1,4 +1,4 @@
-# Application name: Book Recipe
+# Nothing more than a simple Book Recipe web application
 
 For accessing and testing the application follow this deployment link: https://ng-course-recipe-book-edc52.web.app
 
