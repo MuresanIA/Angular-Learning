@@ -1,4 +1,21 @@
-# NgCompleteGuideUpdate
+Book Recipe
+
+For accessing and testing the application follow this deployment link: https://ng-course-recipe-book-edc52.web.app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Default information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
