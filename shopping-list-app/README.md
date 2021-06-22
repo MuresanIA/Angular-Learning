@@ -2,6 +2,7 @@
 
 For accessing and testing the application follow this deployment link: https://ng-course-recipe-book-edc52.web.app
 
+This application is the result of the angular course I had to take during my job practice.
 
 ## Default information
 
