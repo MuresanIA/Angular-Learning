@@ -68,3 +68,6 @@ const demoArray = [1,2,3];
 const updateArray = insertAtBeginning(demoArray, -1); // [-1 ,1 ,2, 3]
 
 
+const stringArray = insertAtBeginning(['a', 'b', 'c'], 'd');
+
+
