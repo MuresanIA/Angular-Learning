@@ -68,17 +68,17 @@ const updateArray = insertAtBeginning(demoArray, -1); // [-1 ,1 ,2, 3]
 const stringArray = insertAtBeginning(["a", "b", "c"], "d");
 
 class Student {
-  firstName: string;
-  lastName: string;
-  age: number;
-  private courses: string[];
+  //   firstName: string;
+  //   lastName: string;
+  //   age: number;
+  //   private courses: string[];
 
-  constructor(first: string, last: string, age: number, courses: string[]) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.courses = courses;
-  }
+  constructor(
+    public firstName: string,
+    public lastName: string,
+    public age: number,
+    private courses: string[]
+  ) {}
 
   enrol(courseName: string) {
     this.courses.push(courseName);
